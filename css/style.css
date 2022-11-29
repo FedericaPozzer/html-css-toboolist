@@ -1,0 +1,33 @@
+/* Generics */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* Header */
+
+.logo-bar {
+    background-color: white;
+    height: 100px;
+    line-height: 100px;
+}
+
+.logo {
+    height: 80px;
+    vertical-align: middle;
+    padding: 0 20px;
+}
+
+h1 {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 50px;
+    vertical-align: middle;
+}
