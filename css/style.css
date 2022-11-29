@@ -7,8 +7,15 @@
 }
 
 body {
-    background-color: lightgray;
+    /* background-color: #f6f8f9; */
+    background-color: palevioletred;
     font-family: Arial, Helvetica, sans-serif
+}
+
+/* Utils */
+
+.inline-block {
+    display: inline-block;
 }
 
 /* Header */
@@ -26,8 +33,38 @@ body {
 }
 
 h1 {
-    display: inline-block;
     font-weight: bolder;
     font-size: 50px;
     vertical-align: middle;
+}
+
+/* main */
+
+.option-bar {
+    width: 1000px;
+    margin: 40px auto 0;
+    background-color: white;
+    height: 60px;
+    border-radius: 10px 10px 0 0;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+button {
+    margin: 0 3px 30px 30px;
+    font-size: 16px;
+}
+
+.task {
+    /* background-color: #47adf1; */
+}
+
+.big-bar {
+    width: 1000px;
+    margin: 5px auto;
+    /* background-color: white; */
+    background-color: white;
+    height: 1000px;
+    border-radius: 0 0 10px 10px;
+    
 }
