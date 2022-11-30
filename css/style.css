@@ -150,3 +150,44 @@ h1 {
 .sales {
     background-color: #b0c926;
 }
+
+/* 
+OR, BETTER:
+.list-heading {
+	margin-top: 25px;
+}
+
+.list-heading::before {
+	content: '\25BE';
+}
+
+.list-item {	
+    height: 20px;
+	line-height: 20px;
+	margin: 10px 0 20px 0;
+}
+.list-item > * {
+	vertical-align: middle;
+}
+.list-item::before {
+	display: inline-block;
+	border: 1px solid currentColor;
+	font-size: 12px;
+	border-radius: 50%;
+    width: 20px;
+	height: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.list-item.check::before {
+	content: '\2714';
+    	color: #61c0a9;
+}
+
+.list-item.uncheck::before {
+	content: '\2718';
+    color: #e7372f;
+}
+ */
