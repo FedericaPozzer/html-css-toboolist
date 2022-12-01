@@ -93,7 +93,7 @@ h1 {
 .summary {
     font-size: 40px;
     font-weight: bold;
-    /* list-style-type: 25BE; non va! */
+    list-style-type: '\25BE'; /*yeee gli apici!!*/
 }
 
 .item {
